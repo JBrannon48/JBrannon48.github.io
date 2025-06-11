@@ -52,7 +52,7 @@ header {
 
 
 #header-inner {
-  padding: 1.8% 0% 1.5%;
+  padding: 1.8% 3% 1.5%;
 }
 
 .header-item {
@@ -60,10 +60,10 @@ header {
   font-size: 1.6vw;
   color: var(--mainTextColor);
   text-decoration: none;
-  display: inline-block;
+  display: flex;
   width: 16%;
   padding: 5%;
-  margin: 0;
+  margin: .5%;
 }
 
 .header-item:hover {

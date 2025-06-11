@@ -60,7 +60,7 @@ header {
   font-size: 1.6vw;
   color: var(--mainTextColor);
   text-decoration: none;
-  display: inline-block;
+  display: flex;
   width: 16%;
   padding: 5%;
   margin: .5%;
@@ -88,23 +88,23 @@ header {
 }
 
 #about-underline {
-  margin: .5% 16.6%;
+  margin: .5% 16.5%;
 }
 
 #sponsors-underline {
-  margin: .5% 33.2%;
+  margin: .5% 33%;
 }
 
 #robots-underline {
-  margin: .5% 49.8%;
+  margin: .5% 49.5%;
 }
 
 #competitions-underline {
-  margin: .5% 66.4%;
+  margin: .5% 66%;
 }
 
 #outreach-underline {
-  margin: .5% 83%
+  margin: .5% 82.5%
 }
 
 .one:hover ~ hr {
@@ -112,23 +112,23 @@ header {
 }
 
 .two:hover ~ hr {
-  margin-left: 16.6%!important;
+  margin-left: 16.5%!important;
 }
 
 .three:hover ~ hr {
-  margin-left: 33.2%!important;
+  margin-left: 33%!important;
 }
 
 .four:hover ~ hr {
-  margin-left: 49.8%!important;
+  margin-left: 49.5%!important;
 }
 
 .five:hover ~ hr {
-  margin-left: 66.4%!important;
+  margin-left: 66%!important;
 }
 
 .six:hover ~ hr {
-  margin-left: 83%!important;
+  margin-left: 82.5%!important;
 }
 
 #main-nav-toggle {
@@ -144,23 +144,23 @@ header {
   }
 
   #about-underline {
-    margin: .5% 16.6%;
+    margin: .5% 16.5%;
   }
 
   #sponsors-underline {
-    margin: .5% 33.2%;
+    margin: .5% 33%;
   }
 
   #robots-underline {
-    margin: .5% 49.8%;
+    margin: .5% 49.5%;
   }
 
   #competitions-underline {
-    margin: .5% 66.4%;
+    margin: .5% 66%;
   }
 
   #outreach-underline {
-    margin: .5% 83%;
+    margin: .5% 82.5%;
   }
 
   .one:hover ~ hr {
@@ -168,23 +168,23 @@ header {
   }
 
   .two:hover ~ hr {
-    margin-left: 16.6%!important;
+    margin-left: 16.5%!important;
   }
 
   .three:hover ~ hr {
-    margin-left: 33.2%!important;
+    margin-left: 33%!important;
   }
 
   .four:hover ~ hr {
-    margin-left: 49.8%!important;
+    margin-left: 49.5%!important;
   }
 
   .five:hover ~ hr {
-    margin-left: 66.4%!important;
+    margin-left: 66%!important;
   }
   
   .six:hover ~ hr {
-  margin-left: 83%!important;
+  margin-left: 82.5%!important;
   }
 
 }

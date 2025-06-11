@@ -61,8 +61,8 @@ header {
   color: var(--mainTextColor);
   text-decoration: none;
   display: inline-block;
-  width: 15%;
-  padding: 0;
+  width: 16%;
+  padding: 5%;
   margin: 0;
 }
 
@@ -72,7 +72,7 @@ header {
 
 .header-underline {
   height: .2vw;
-  width: 15%;
+  width: 16%;
   background: var(--themeColor);
   border: none;
   transition: .3s ease-in-out;
@@ -210,8 +210,8 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0px;
-    padding: 6% 0%;
+    gap: 20px;
+    padding: 6% 1%;
   }
 
   .main-nav-button-container {

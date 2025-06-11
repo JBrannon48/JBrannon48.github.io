@@ -52,7 +52,7 @@ header {
 
 
 #header-inner {
-  padding: 1.8% 3% 1.5%;
+  padding: 1.8% 0% 1.5%;
 }
 
 .header-item {
@@ -72,7 +72,7 @@ header {
 
 .header-underline {
   height: .2vw;
-  width: 16%;
+  width: 15%;
   background: var(--themeColor);
   border: none;
   transition: .3s ease-in-out;
@@ -88,23 +88,23 @@ header {
 }
 
 #about-underline {
-  margin: .5% 16.5%;
+  margin: .5% 16%;
 }
 
 #sponsors-underline {
-  margin: .5% 33%;
+  margin: .5% 32%;
 }
 
 #robots-underline {
-  margin: .5% 49.5%;
+  margin: .5% 48%;
 }
 
 #competitions-underline {
-  margin: .5% 66%;
+  margin: .5% 64%;
 }
 
 #outreach-underline {
-  margin: .5% 82.5%
+  margin: .5% 80%
 }
 
 .one:hover ~ hr {
@@ -112,23 +112,23 @@ header {
 }
 
 .two:hover ~ hr {
-  margin-left: 16.5%!important;
+  margin-left: 16%!important;
 }
 
 .three:hover ~ hr {
-  margin-left: 33%!important;
+  margin-left: 32%!important;
 }
 
 .four:hover ~ hr {
-  margin-left: 49.5%!important;
+  margin-left: 48%!important;
 }
 
 .five:hover ~ hr {
-  margin-left: 66%!important;
+  margin-left: 64%!important;
 }
 
 .six:hover ~ hr {
-  margin-left: 82.5%!important;
+  margin-left: 80%!important;
 }
 
 #main-nav-toggle {
@@ -144,23 +144,23 @@ header {
   }
 
   #about-underline {
-    margin: .5% 16.5%;
+    margin: .5% 16%;
   }
 
   #sponsors-underline {
-    margin: .5% 33%;
+    margin: .5% 32%;
   }
 
   #robots-underline {
-    margin: .5% 49.5%;
+    margin: .5% 48%;
   }
 
   #competitions-underline {
-    margin: .5% 66%;
+    margin: .5% 64%;
   }
 
   #outreach-underline {
-    margin: .5% 82.5%;
+    margin: .5% 80%;
   }
 
   .one:hover ~ hr {
@@ -168,23 +168,23 @@ header {
   }
 
   .two:hover ~ hr {
-    margin-left: 16.5%!important;
+    margin-left: 16%!important;
   }
 
   .three:hover ~ hr {
-    margin-left: 33%!important;
+    margin-left: 32%!important;
   }
 
   .four:hover ~ hr {
-    margin-left: 49.5%!important;
+    margin-left: 48%!important;
   }
 
   .five:hover ~ hr {
-    margin-left: 66%!important;
+    margin-left: 64%!important;
   }
   
   .six:hover ~ hr {
-  margin-left: 82.5%!important;
+  margin-left: 80%!important;
   }
 
 }
@@ -210,8 +210,8 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
-    padding: 6% 1%;
+    gap: 0px;
+    padding: 6% 0%;
   }
 
   .main-nav-button-container {

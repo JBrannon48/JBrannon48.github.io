@@ -60,7 +60,7 @@ header {
   font-size: 1.6vw;
   color: var(--mainTextColor);
   text-decoration: none;
-  display: flex;
+  display: inline-block;
   width: 16%;
   padding: 5%;
   margin: .5%;

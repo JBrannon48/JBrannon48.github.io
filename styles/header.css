@@ -61,7 +61,7 @@ header {
   color: var(--mainTextColor);
   text-decoration: none;
   display: inline-block;
-  width: 16.5%;
+  width: 15.5%;
   padding: 0;
   margin: 0;
 }
@@ -72,7 +72,7 @@ header {
 
 .header-underline {
   height: .2vw;
-  width: 16%;
+  width: 15.5%;
   background: var(--themeColor);
   border: none;
   transition: .3s ease-in-out;

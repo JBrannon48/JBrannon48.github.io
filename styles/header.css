@@ -50,8 +50,13 @@ header {
   transform: rotate(180deg);
 }
 
+
 #header-inner {
-  padding: 1.8% 20% 1.5%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1.5% 5%;
+  position: relative;
 }
 
 .header-item {
@@ -59,10 +64,8 @@ header {
   font-size: 1.6vw;
   color: var(--mainTextColor);
   text-decoration: none;
-  display: inline-block;
-  width: 16.3%;
-  padding: 0;
-  margin: 0;
+  padding: 0 1vw; /* optional: adjust horizontal spacing */
+  white-space: nowrap;
 }
 
 .header-item:hover {
@@ -70,11 +73,7 @@ header {
 }
 
 .header-underline {
-  height: .2vw;
-  width: 16.3%;
-  background: var(--themeColor);
-  border: none;
-  transition: .3s ease-in-out;
+  display: none !important;
 }
 
 #logo {
@@ -87,23 +86,23 @@ header {
 }
 
 #about-underline {
-  margin: .5% 16.3%;
+  margin: .5% 16.6%;
 }
 
 #sponsors-underline {
-  margin: .5% 32.6%;
+  margin: .5% 33.3%;
 }
 
 #robots-underline {
-  margin: .5% 48.9%;
+  margin: .5% 50%;
 }
 
 #competitions-underline {
-  margin: .5% 65.2%;
+  margin: .5% 66.6%;
 }
 
 #outreach-underline {
-  margin: .5% 81.5%;
+  margin: .5 83.3%;
 }
 
 .one:hover ~ hr {
@@ -111,23 +110,23 @@ header {
 }
 
 .two:hover ~ hr {
-  margin-left: 16.3%!important;
+  margin-left: 16.6%!important;
 }
 
 .three:hover ~ hr {
-  margin-left: 32.6%!important;
+  margin-left: 33.3%!important;
 }
 
 .four:hover ~ hr {
-  margin-left: 48.9%!important;
+  margin-left: 50%!important;
 }
 
 .five:hover ~ hr {
-  margin-left: 65.2%!important;
+  margin-left: 66.6%!important;
 }
 
 .six:hover ~ hr {
-  margin-left: 81.5%!important;
+  margin-left: 83.3%!important;
 }
 
 #main-nav-toggle {
@@ -136,29 +135,30 @@ header {
   height: 100%;
 }
 
+/* Header looks weird at higher resolutions, this attempts to fix it */
 @media (min-width: 2000px) {
   #home-underline {
     margin: .5% 0;
   }
 
   #about-underline {
-    margin: .5% 16.3%;
+    margin: .5% 16.1%;
   }
 
   #sponsors-underline {
-    margin: .5% 32.6%;
+    margin: .5% 32.8%;
   }
 
   #robots-underline {
-    margin: .5% 48.9%;
+    margin: .5% 49.5%;
   }
 
   #competitions-underline {
-    margin: .5% 65.2%;
+    margin: .5% 66.1%;
   }
 
   #outreach-underline {
-    margin: .5% 81.5%;
+    margin: .5% 82.8%;
   }
 
   .one:hover ~ hr {
@@ -166,24 +166,25 @@ header {
   }
 
   .two:hover ~ hr {
-    margin-left: 16.3%!important;
+    margin-left: 16.1%!important;
   }
 
   .three:hover ~ hr {
-    margin-left: 32.6%!important;
+    margin-left: 32.8%!important;
   }
 
   .four:hover ~ hr {
-    margin-left: 48.9%!important;
+    margin-left: 49.5%!important;
   }
 
   .five:hover ~ hr {
-    margin-left: 65.2%!important;
+    margin-left: 66.1%!important;
   }
 
   .six:hover ~ hr {
-    margin-left: 81.5%!important;
+    margin-left: 82.8%!important;
   }
+
 }
 
 @media (max-width: 1100px) {
@@ -264,4 +265,5 @@ header {
     font-size: 6vw;
     width: 100%;
   }
+
 }

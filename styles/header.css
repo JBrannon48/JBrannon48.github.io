@@ -50,9 +50,8 @@ header {
   transform: rotate(180deg);
 }
 
-
 #header-inner {
-    padding: 1.8% 15.5% 1.5%;
+  padding: 1.8% 20% 1.5%;
 }
 
 .header-item {
@@ -61,10 +60,9 @@ header {
   color: var(--mainTextColor);
   text-decoration: none;
   display: inline-block;
-  width: 15.5%;
+  width: 16.3%;
   padding: 0;
   margin: 0;
-
 }
 
 .header-item:hover {
@@ -73,7 +71,7 @@ header {
 
 .header-underline {
   height: .2vw;
-  width: 15.5%;
+  width: 16.3%;
   background: var(--themeColor);
   border: none;
   transition: .3s ease-in-out;
@@ -89,23 +87,23 @@ header {
 }
 
 #about-underline {
-  margin: .5% 16.6%;
+  margin: .5% 16.3%;
 }
 
 #sponsors-underline {
-  margin: .5% 33.3%;
+  margin: .5% 32.6%;
 }
 
 #robots-underline {
-  margin: .5% 50%;
+  margin: .5% 48.9%;
 }
 
 #competitions-underline {
-  margin: .5% 66.6%;
+  margin: .5% 65.2%;
 }
 
 #outreach-underline {
-  margin: .5 83.3%;
+  margin: .5% 81.5%;
 }
 
 .one:hover ~ hr {
@@ -113,23 +111,23 @@ header {
 }
 
 .two:hover ~ hr {
-  margin-left: 16.6%!important;
+  margin-left: 16.3%!important;
 }
 
 .three:hover ~ hr {
-  margin-left: 33.3%!important;
+  margin-left: 32.6%!important;
 }
 
 .four:hover ~ hr {
-  margin-left: 50%!important;
+  margin-left: 48.9%!important;
 }
 
 .five:hover ~ hr {
-  margin-left: 66.6%!important;
+  margin-left: 65.2%!important;
 }
 
 .six:hover ~ hr {
-  margin-left: 83.3%!important;
+  margin-left: 81.5%!important;
 }
 
 #main-nav-toggle {
@@ -138,30 +136,29 @@ header {
   height: 100%;
 }
 
-/* Header looks weird at higher resolutions, this attempts to fix it */
 @media (min-width: 2000px) {
   #home-underline {
     margin: .5% 0;
   }
 
   #about-underline {
-    margin: .5% 16.1%;
+    margin: .5% 16.3%;
   }
 
   #sponsors-underline {
-    margin: .5% 32.8%;
+    margin: .5% 32.6%;
   }
 
   #robots-underline {
-    margin: .5% 49.5%;
+    margin: .5% 48.9%;
   }
 
   #competitions-underline {
-    margin: .5% 66.1%;
+    margin: .5% 65.2%;
   }
 
   #outreach-underline {
-    margin: .5% 82.8%;
+    margin: .5% 81.5%;
   }
 
   .one:hover ~ hr {
@@ -169,25 +166,24 @@ header {
   }
 
   .two:hover ~ hr {
-    margin-left: 16.1%!important;
+    margin-left: 16.3%!important;
   }
 
   .three:hover ~ hr {
-    margin-left: 32.8%!important;
+    margin-left: 32.6%!important;
   }
 
   .four:hover ~ hr {
-    margin-left: 49.5%!important;
+    margin-left: 48.9%!important;
   }
 
   .five:hover ~ hr {
-    margin-left: 66.1%!important;
+    margin-left: 65.2%!important;
   }
 
   .six:hover ~ hr {
-    margin-left: 82.8%!important;
+    margin-left: 81.5%!important;
   }
-
 }
 
 @media (max-width: 1100px) {
@@ -268,5 +264,4 @@ header {
     font-size: 6vw;
     width: 100%;
   }
-
 }
